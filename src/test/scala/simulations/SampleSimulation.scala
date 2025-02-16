@@ -2,6 +2,7 @@ import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import scala.concurrent.duration._
 
+/** Note - This Simulation is not in working condition */
 /* Define the simulation class */
 class SampleSimulation extends Simulation {
 
