@@ -21,7 +21,7 @@ sourceSets {
 }
 
 gatling {
-    jvmArgs = ['-server', '-Xms512M', '-Xmx2048MB']
+    jvmArgs = ['-server', '-Xms512M', '-Xmx2048M']
     systemProperties = System.properties
     simulations = {
         include "**/simulations/**/*.scala"
